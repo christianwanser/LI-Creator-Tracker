@@ -127,7 +127,10 @@ def page2():
             if st.button("Open everyone's profiles"):
                 for i in range(0,df.shape[0]):
                     creator_url = df.iloc[i,1]
-                    webbrowser.open_new_tab(creator_url)
+
+                    #webbrowser.open_new_tab(creator_url)
+
+                    webbrowser.open(creator_url)
 
         with col2:
 
