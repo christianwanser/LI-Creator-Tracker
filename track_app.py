@@ -88,12 +88,12 @@ def page2():
         st.subheader("Here are the top profiles you follow:")
 
 
-        m = st.markdown("""
-        <style>
-        div.stButton > button:first-child {
-            background-color: rgb(134, 136, 138);
-        }
-        </style>""", unsafe_allow_html=True)
+        #m = st.markdown("""
+        #<style>
+        #div.stButton > button:first-child {
+        #    background-color: rgb(134, 136, 138);
+        #}
+        #</style>""", unsafe_allow_html=True)
 
 
 
